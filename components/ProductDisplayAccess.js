@@ -48,18 +48,16 @@ app.component('product-display', {
     data: function () {
         return {
             cart: 0,
-            product: 'Hobby horse',
-            brand: 'Ur Life With Hobby Horse',
+            product: 'Hobby horse accessories',
+            brand: 'Ur Life With Hobby Horse : ',
             selectedVariant: 0,
-            description: 'This new line for kids features recreational universe built around imaginary miniature cowboys and cowgirls. Textile items, games and unique accessories create a real playground for everyone.',
+            description: 'You cannot buy Hobby Horse without the associated accessories!',
             details: ['Made in France', 'Designed by Luna Caralada', 'Dimensions: L 39 x H 114 cm', `Price : 130 CAD`],
             variants: [
-                { id: 2234, color: '#0D0D0D', image: 'images/hobby_horse_black.png', quantity: 64 },
-                { id: 2235, color: '#E1D9D5', image: 'images/hobby_horse_white.png', quantity: 16 },
-                { id: 2236, color: '#E3C998', image: 'images/hobby_horse_brown.png', quantity: 0 },
-                { id: 2237, color: '#FFC0D9', image: 'images/hobby_horse_home.jpeg', quantity: 17 },
-                { id: 2238, color: '#FF8F8F', image: 'images/hobby_horse_unicorn.jpeg', quantity: 4 },
-                { id: 2239, color: '#A9A9A9', image: 'images/hobby_horse_gris.webp', quantity: 2 },
+                { id: 2234, color: '#8ACDD7', image: 'images/jump_ocean.webp', quantity: 64 },
+                { id: 2235, color: '#B31312', image: 'images/jump_fire.webp', quantity: 16 },
+                { id: 2236, color: '#D0D4CA', image: 'images/jump_wall.webp', quantity: 0 },
+                { id: 2237, color: '#A7D397', image: 'images/jump_grass.webp', quantity: 1 },
 
             ],
             reviews: []

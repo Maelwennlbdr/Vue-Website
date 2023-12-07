@@ -187,27 +187,51 @@ ul {
   background-color: #fb6f92;
   color: #fff;
   border: none;
-  cursor: pointer;
+  outline: none;
+  border: none;
+  /*cursor: pointer;*/
 }
 
-/* CSS to the home page*/
+button:focus,
+a:focus {
+  outline: none;
+  border: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+
+
+
 .text-with-image {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.button {
-  /* Styles de votre bouton */
+
+
+
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
+
+
+
+
+
+
 
 img {
   width: 450px;
-  /* Ajustez la largeur de l'image selon vos besoins */
   height: auto;
-  /* Conservez les proportions d'origine */
   margin-left: 20px;
-  /* Espacement entre le texte et l'image */
 }
 
 
@@ -228,11 +252,7 @@ h2 {
   text-align: center;
 }
 
-.center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .button {
   padding: 10px 20px;
@@ -275,4 +295,13 @@ footer {
 
 .card-title {
   font-weight: bold;
+}
+
+
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
 }
