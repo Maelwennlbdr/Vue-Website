@@ -57,6 +57,7 @@ app.component('product-display', {
                 {id: 2234, color:'#0D0D0D', image: 'images/hobby_horse_black.png', quantity: 64},
                 {id: 2235, color:'#E1D9D5', image: 'images/hobby_horse_white.png', quantity: 16},
                 {id: 2236, color:'#E3C998', image: 'images/hobby_horse_brown.png', quantity: 0},
+                {id: 2237, color: '#FFC0D9', image: 'images/hobby_horse_home.jpeg', quantity: 17 },
             ],
             reviews: []
         }
