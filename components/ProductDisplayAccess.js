@@ -52,7 +52,7 @@ app.component('product-display', {
             brand: 'Ur Life With Hobby Horse : ',
             selectedVariant: 0,
             description: 'You cannot buy Hobby Horse without the associated accessories!',
-            details: ['Made in France', 'Designed by Luna Caralada', 'Dimensions: L 39 x H 114 cm', `Price : 130 CAD`],
+            details: ['Made in France', 'Designed by Olivier Robertodo', 'Hauteur: 1 metre', `Price : 150 CAD`],
             variants: [
                 { id: 2234, color: '#8ACDD7', image: 'images/jump_ocean.webp', quantity: 64 },
                 { id: 2235, color: '#B31312', image: 'images/jump_fire.webp', quantity: 16 },
